@@ -1,0 +1,48 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  border: 1px solid yellow;
+  width: 50%;
+  margin: auto;
+  margin-top: 4rem;
+  background-color: white;
+}
+
+.header-text {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.formContainer > * {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.btn-submit {
+  width: 40%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-submit:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: aqua;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
