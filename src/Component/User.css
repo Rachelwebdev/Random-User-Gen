@@ -1,0 +1,80 @@
+.main-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 80vh; */
+  border: 1px solid yellow;
+  width: 70%;
+  margin: auto;
+  margin-top: 4rem;
+  background-color: white;
+}
+.title-heading {
+  margin: 2rem 0;
+}
+.user-box {
+  height: 80vh;
+  border: 1px solid black;
+  width: 80%;
+  margin-bottom: 5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+.prev,
+.next {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 9px;
+}
+.prev:hover {
+  border-color: transparent;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: aqua;
+}
+.next:hover {
+  border-color: transparent;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: aqua;
+}
+.prev {
+  margin-right: 2rem;
+}
+.next {
+  margin-left: 2rem;
+}
+
+.number-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.number-buttons > .num {
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+
+.num:hover {
+  border-color: transparent;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: aqua;
+}
