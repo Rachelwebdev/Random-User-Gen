@@ -18,6 +18,8 @@
   width: 80%;
   margin-bottom: 5rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .user-image {
   height: 250px;
@@ -27,6 +29,7 @@
   margin: auto 0;
   margin-right: 5rem;
   margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 .user-info {
   display: flex;
@@ -51,22 +54,7 @@
   padding: 12px;
   border-radius: 9px;
 }
-.prev:hover {
-  border-color: transparent;
-  color: black;
-  background-color: white;
-  cursor: pointer;
-  font-weight: 600;
-  background-color: aqua;
-}
-.next:hover {
-  border-color: transparent;
-  color: black;
-  background-color: white;
-  cursor: pointer;
-  font-weight: 600;
-  background-color: aqua;
-}
+
 .prev {
   margin-right: 2rem;
 }
