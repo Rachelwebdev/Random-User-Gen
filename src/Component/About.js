@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
 
 const About = () => {
@@ -10,12 +10,25 @@ const About = () => {
         CONNECT WITH PEOPLE ALL AROUND THE WORLD THROUGH USERLY. <br />
         👨‍👩‍👦‍👦 <br /> <br />
         <p className="sub-heading">Meet Our Users From All Over The World </p>
-        <Link to="/User" className="btn-about" type="submit">
-          HERE{" "}
-          <span className="icon-arrow">
-            <BsFillArrowRightSquareFill />
-          </span>
-        </Link>
+        <div className="button-container">
+          <Link
+            to="/about/user"
+            className="btn-about button-users"
+            type="submit"
+          >
+            USERS
+            <span className="icon-arrow">
+              <BsFillArrowRightSquareFill />
+            </span>
+          </Link>
+          <Link to="/about/register" className="btn-about" type="submit">
+            REGISTER
+            <span className="icon-arrow">
+              <BsFillArrowRightSquareFill />
+            </span>
+          </Link>
+        </div>
+        <Outlet />
       </h1>
     </div>
   );
