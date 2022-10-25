@@ -1,0 +1,50 @@
+.footer-container {
+  background-color: rgb(247, 237, 237);
+  color: #efc006;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.section-1,
+.section-2 {
+  width: 40%;
+}
+.section-1 p {
+  margin-bottom: 20px;
+}
+
+.section-1 p span {
+  margin-right: 1rem;
+}
+.section-2 > p {
+  margin: 20px 0;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials p {
+  margin-right: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+  .section-1,
+  .section-2 {
+    width: 80%;
+  }
+  .section-2 {
+    border-bottom: 2px dashed rgb(247, 189, 0);
+  }
+  .socials {
+    margin-bottom: 1rem;
+  }
+  .section-1 {
+    margin-top: 1rem;
+  }
+}
