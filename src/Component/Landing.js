@@ -25,7 +25,7 @@ function Landing() {
             required
           />
           <Link to="/About" className="btn-submit" type="submit">
-            Sign In
+            LOGIN
           </Link>
         </form>
       </div>
