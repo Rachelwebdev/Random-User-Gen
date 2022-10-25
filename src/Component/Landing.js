@@ -7,7 +7,7 @@ function Landing() {
     <>
       <div className="bg-img">
         <form action="" className="form-container">
-          <h1>Login to see Our Users 👨‍👩‍👦‍👦</h1>
+          <h1>Login to see Who We Are! 👨‍👩‍👦‍👦</h1>
 
           <label className="email-label" htmlFor="email">
             <b>Email</b>
@@ -24,7 +24,7 @@ function Landing() {
             placeholder="Enter Password"
             required
           />
-          <Link to="/User" className="btn-submit" type="submit">
+          <Link to="/About" className="btn-submit" type="submit">
             Sign In
           </Link>
         </form>
