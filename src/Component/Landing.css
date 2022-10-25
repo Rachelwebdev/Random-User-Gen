@@ -1,11 +1,14 @@
 .bg-img {
   background-image: url("https://bit.ly/3f4LAPM");
-  height: 120vh;
+  min-height: 140vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+/* .login-heading {
+  margin-bottom: 1rem;
+} */
 
 .form-container {
   position: absolute;
@@ -20,9 +23,10 @@
 }
 
 .form-container h1 {
-  font-size: 20px;
+  color: #06dcdc;
+  font-size: 1.9rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 input[type="text"],
 input[type="password"] {

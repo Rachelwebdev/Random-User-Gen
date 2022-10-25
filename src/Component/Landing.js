@@ -7,7 +7,7 @@ function Landing() {
     <>
       <div className="bg-img">
         <form action="" className="form-container">
-          <h1>Login to see Who We Are! 👨‍👩‍👦‍👦</h1>
+          <h1 className="login-heading">Login to see Who We Are! 👨‍👩‍👦‍👦</h1>
 
           <label className="email-label" htmlFor="email">
             <b>Email</b>
