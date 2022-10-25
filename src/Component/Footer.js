@@ -29,7 +29,7 @@ const Footer = () => {
             <span>
               <MdEmail />
             </span>
-            support@surprisekitchen.com
+            userly@gmail.com
           </p>
         </div>
         <div className="section-2">
