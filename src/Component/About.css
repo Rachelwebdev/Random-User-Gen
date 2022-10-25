@@ -1,0 +1,41 @@
+.hero-bg-image {
+  background-image: url("https://bit.ly/3f9WSCa");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.intro-heading {
+  color: #efc006;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  font-size: 35px;
+}
+.sub-heading {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+.btn-about {
+  cursor: pointer;
+  background-color: #efc006;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 12px;
+}
+
+.btn-about:hover {
+  background-color: white;
+  color: #efc006;
+  padding: 20px 25px;
+  font-size: 20px;
+}
