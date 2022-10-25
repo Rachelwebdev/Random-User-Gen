@@ -13,9 +13,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/User" element={<PaginationContainer />} />
-        <Route path="/Register" element={<Register />} />
+        <Route path="/about" element={<About />}>
+          <Route path="user" element={<PaginationContainer />} />
+          <Route path="register" element={<Register />} />
+        </Route>
       </Routes>
       <Footer />
     </div>
