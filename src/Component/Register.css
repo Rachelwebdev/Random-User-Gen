@@ -23,7 +23,6 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 2rem;
   padding-bottom: 4rem;
 }
 
@@ -39,6 +38,7 @@
   border: none;
   padding: 16px 20px;
   border-radius: 12px;
+  margin-top: 2rem;
 }
 
 .btn-form-submit:hover {

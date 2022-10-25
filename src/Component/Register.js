@@ -5,7 +5,7 @@ const Register = () => {
   return (
     <div className="register-container">
       <h2 className="register-heading">
-        REGISTER HERE CONNECT WITH OTHER USERS ON USERLY
+        REGISTER HERE TO CONNECT WITH OTHER USERS ON USERLY
       </h2>
       <form action="" className="register-form-container">
         <input
