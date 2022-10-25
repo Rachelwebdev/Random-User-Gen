@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-image: url("https://bit.ly/3TBQx1y");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 .user-box {
   float: left;
   /* width: 50%; */
   border: 2px solid wheat;
-  width: 300px;
   background-color: black;
   color: wheat;
   padding: 3rem 1rem;
@@ -32,10 +35,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.user-info h2 {
+.user-info p {
   padding-bottom: 2rem;
 }
 
+.user-info span {
+  margin-right: 10px;
+}
 .buttons {
   display: flex;
   justify-content: space-around;

@@ -30,8 +30,12 @@ small {
   transform: translate(-50%, -50%);
 }
 .title-heading {
-  color: black;
+  color: #efc006;
+  letter-spacing: 1.5px;
   text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 35px;
 }
 
 .prev,

@@ -15,16 +15,26 @@ export default function User({ user, loading }) {
 
         <div className="user-info">
           <p>
-            Name: {user.name.title} {user.name.first} {user.name.last}
+            <span>Name:</span> {user.name.title} {user.name.first}
+            {user.name.last}
           </p>
-          <p>Email: {user.email}</p>
-          <p>Birthday: {dateOfBirth} </p>
           <p>
-            Address: {user.location.street.number}
+            <span>Email: </span>
+            {user.email}
+          </p>
+          <p>
+            <span>Birthday:</span>
+            {dateOfBirth}
+          </p>
+          <p>
+            <span> Address: </span>
+            <span>{user.location.street.number}</span>
             {user.location.street.name}
           </p>
-          <p>Phone-No: {user.phone} 420-4900</p>
-          <p>Password: {user.login.password} </p>
+          <p>
+            <span>Phone:</span>
+            {user.phone} 420-4900
+          </p>
         </div>
       </div>
     </div>

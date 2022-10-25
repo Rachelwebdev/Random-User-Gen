@@ -4,9 +4,7 @@ import "./Register.css";
 const Register = () => {
   return (
     <div className="register-container">
-      <h2 className="register-heading">
-        REGISTER HERE TO CONNECT WITH OTHER USERS ON USERLY
-      </h2>
+      <h2 className="register-heading">JOIN USERLY TODAY </h2>
       <form action="" className="register-form-container">
         <input
           type="text"

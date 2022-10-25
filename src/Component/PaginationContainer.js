@@ -22,21 +22,27 @@ const PaginationContainer = () => {
     fetchData();
   }, []);
   return (
-    <div>
+    <div className="user-main-container">
       <h1 className="title-heading">HELLO, I AM A NEW USER 🧑</h1>
-      {isLoading ? (
-        <div style={{ color: "black", textAlign: "center", fontSize: "2rem" }}>
-          A moment please...
-        </div>
-      ) : (
-        <Pagination
-          dataLimit={10}
-          pageLimit={5}
-          RenderComponent={User}
-          data={apiData}
-          loading={isLoading}
-        />
-      )}
+      <div>
+        {isLoading ? (
+          <div
+            style={{ color: "black", textAlign: "center", fontSize: "2rem" }}
+          >
+            A moment please...
+          </div>
+        ) : (
+          <div className="users-container">
+            <Pagination
+              dataLimit={10}
+              pageLimit={5}
+              RenderComponent={User}
+              data={apiData}
+              loading={isLoading}
+            />
+          </div>
+        )}
+      </div>
     </div>
   );
 };

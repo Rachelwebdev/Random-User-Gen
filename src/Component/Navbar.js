@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <h1 href="/" className="brand-name">
-        Userly
+        Userly 👨‍👦‍👦
       </h1>
       <button
         className="hamburger"
@@ -46,7 +46,7 @@ export default function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/User" className="anchor-tags" href="/users">
               Users
             </Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
             <Link to="/Register" className="anchor-tags" href="/register">
               Register
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
