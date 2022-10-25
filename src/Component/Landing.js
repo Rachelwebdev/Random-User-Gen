@@ -5,20 +5,29 @@ import { Link } from "react-router-dom";
 function Landing() {
   return (
     <>
-      <div className="main-container">
-        <h1 className="header-text">Login to See Random Users</h1>
-        <div className="formContainer">
-          <input type="text" name="email" id="email" placeholder="Email" />
+      <div className="bg-img">
+        <form action="" className="form-container">
+          <h1>Login to see Our Users 👨‍👩‍👦‍👦</h1>
+
+          <label className="email-label" htmlFor="email">
+            <b>Email</b>
+          </label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label className="pswd-label" htmlFor="psw">
+            <b>Password</b>
+          </label>
           <input
-            type="text"
-            name="password"
-            id="password"
-            placeholder="Password"
+            type="password"
+            name="psw"
+            id="psw"
+            placeholder="Enter Password"
+            required
           />
           <Link to="/User" className="btn-submit" type="submit">
             Sign In
           </Link>
-        </div>
+        </form>
       </div>
     </>
   );

@@ -1,47 +1,60 @@
-.main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 80vh;
-  border: 1px solid yellow;
-  width: 50%;
-  margin: auto;
-  margin-top: 4rem;
+.bg-img {
+  background-image: url("https://bit.ly/3TQpGyl");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form-container {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  margin: 20px;
+  max-width: 400px;
   background-color: white;
+  padding: 3rem;
 }
 
-.header-text {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+.form-container h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
 }
 
-.formContainer {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-}
-
-.formContainer > * {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-radius: 12px;
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+  margin-top: 1rem;
 }
 
 .btn-submit {
-  width: 40%;
-  margin: 0 auto;
-  background-color: black;
+  width: 100%;
+  background-color: #efc006;
   color: white;
   font-size: 15px;
   text-decoration: none;
-  text-align: center;
+  opacity: 0.7;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 12px;
 }
 .btn-submit:hover {
-  color: black;
+  color: #dcae06;
   background-color: white;
   cursor: pointer;
   font-weight: 600;
-  background-color: aqua;
+  opacity: 1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
