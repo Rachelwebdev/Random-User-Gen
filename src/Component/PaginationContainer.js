@@ -1,5 +1,6 @@
 import React from "react";
 import User from "./User";
+
 import Pagination from "./Pagination";
 import { useState, useEffect } from "react";
 
@@ -24,7 +25,7 @@ const PaginationContainer = () => {
     <div>
       <h1 className="title-heading">HELLO, I AM A NEW USER 🧑</h1>
       {isLoading ? (
-        <div style={{ color: "white", textAlign: "center", fontSize: "2rem" }}>
+        <div style={{ color: "black", textAlign: "center", fontSize: "2rem" }}>
           A moment please...
         </div>
       ) : (
