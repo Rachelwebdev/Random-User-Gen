@@ -1,3 +1,8 @@
+/* .users-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+} */
+
 .pagination-buttons {
   display: flex;
   justify-content: center;

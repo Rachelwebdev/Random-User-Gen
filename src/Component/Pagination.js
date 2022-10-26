@@ -47,12 +47,14 @@ export default function Pagination(props) {
         <div className="all-users">
           {getPaginatedData().map((data, index) => {
             return (
-              <RenderComponent
-                user={data}
-                id={index}
-                key={index}
-                loading={isLoading}
-              />
+              <div className="users-container">
+                <RenderComponent
+                  user={data}
+                  id={index}
+                  key={index}
+                  loading={isLoading}
+                />
+              </div>
             );
           })}
         </div>

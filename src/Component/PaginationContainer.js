@@ -32,15 +32,13 @@ const PaginationContainer = () => {
             A moment please...
           </div>
         ) : (
-          <div className="users-container">
-            <Pagination
-              dataLimit={10}
-              pageLimit={5}
-              RenderComponent={User}
-              data={apiData}
-              loading={isLoading}
-            />
-          </div>
+          <Pagination
+            dataLimit={10}
+            pageLimit={5}
+            RenderComponent={User}
+            data={apiData}
+            loading={isLoading}
+          />
         )}
       </div>
     </div>
