@@ -1,0 +1,42 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.error-message {
+  margin-top: 3rem;
+  font-size: 80px;
+  color: #c69f00;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.desc {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btn-save-me {
+  margin-top: 2rem;
+  width: 15%;
+  margin: 2rem auto 0;
+  padding: 0.9rem;
+  background-color: black;
+  color: #efc006;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn-save-me:hover {
+  background-color: white;
+  border: 2px solid #efc006;
+  font-weight: 800;
+  color: black;
+}
