@@ -1,6 +1,5 @@
 #main-card {
-  width: 80%;
-  /* border: 2px dashed #010101; */
+  width: 100%;
   border-radius: 2rem;
   overflow: hidden;
   margin-bottom: 3rem;
@@ -24,7 +23,6 @@
 .avatar {
   position: relative;
   top: -50px;
-  /* max-width: 100%; */
   max-height: 100%;
   border-radius: 50%;
   box-shadow: -1px 1px 11px 6px rgba(189, 172, 172, 0.33);
@@ -35,7 +33,7 @@
 }
 .content {
   background: #f9f9f9;
-  position: relative;
+  padding: 0 1rem;
 }
 .name {
   font-size: 18px;
@@ -45,6 +43,7 @@
 .email {
   font-size: 18px;
   padding-bottom: 20px;
+  padding-right: 2rem;
 }
 .icons-container {
   display: flex;
@@ -114,5 +113,14 @@ div#main-card:hover {
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+  }
+}
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (min-width: 1201px) {
+  #main-card {
+    /* width: 150%; */
   }
 }

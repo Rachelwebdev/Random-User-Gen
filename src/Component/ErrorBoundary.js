@@ -28,8 +28,12 @@ class ErrorBoundary extends Component {
           <img src="https://bit.ly/3N9w2qy" alt="LOL" />
           <h1 className="error-message">Something went wrong</h1>
           {this.state.error.message && (
-            <span className="desc">
-              Here's the error: {this.state.error.message}
+            <span className="description-container">
+              Here's the error: <br />
+              <br />
+              <span className="error-description">
+                {this.state.error.message}
+              </span>
             </span>
           )}
           <button

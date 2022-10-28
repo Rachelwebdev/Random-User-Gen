@@ -5,7 +5,7 @@ import { BsFillArrowRightSquareFill } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="hero-bg-image">
+    <div className="about-main-container">
       <h1 className="intro-heading">
         CONNECT WITH PEOPLE ALL AROUND THE WORLD THROUGH USERLY. <br />
         👨‍👩‍👦‍👦 <br /> <br />

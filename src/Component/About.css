@@ -1,3 +1,7 @@
+.about-main-container {
+  width: 100%;
+}
+
 .intro-heading {
   color: black;
   text-align: center;
@@ -5,9 +9,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  max-width: 800px;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding: 5rem 2rem;
   font-size: 35px;
 }
 .sub-heading {
@@ -16,9 +20,12 @@
 }
 
 .button-container {
-  padding-bottom: 5rem;
+  margin-bottom: 5rem;
 }
+
 .btn-about {
+  border-radius: 5rem;
+  width: 100%;
   cursor: pointer;
   background-color: #efc006;
   color: black;
@@ -37,8 +44,17 @@
 }
 .button-users {
   margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .icon-arrow {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
 }

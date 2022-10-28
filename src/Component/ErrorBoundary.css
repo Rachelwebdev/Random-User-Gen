@@ -3,24 +3,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
+  background-color: rgb(239, 232, 224);
+  height: 100vh;
 }
 
 .error-message {
   margin-top: 3rem;
-  font-size: 80px;
+  font-size: 60px;
   color: #c69f00;
   text-align: center;
   margin-bottom: 2rem;
 }
-.desc {
+.description-container {
   font-size: 30px;
   font-weight: 600;
 }
 
 .btn-save-me {
   margin-top: 2rem;
-  width: 15%;
   margin: 2rem auto 0;
   padding: 0.9rem;
   background-color: black;
@@ -39,4 +39,19 @@
   border: 2px solid #efc006;
   font-weight: 800;
   color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .error-message {
+    font-size: 30px;
+  }
+  .description-container {
+    font-size: 20px;
+    padding: 0 2rem;
+  }
+  .error-description {
+    font-size: 18px;
+    max-width: 400px;
+    line-height: 2;
+  }
 }

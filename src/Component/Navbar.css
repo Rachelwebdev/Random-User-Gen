@@ -45,7 +45,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #283b8b;
+  background-color: #efc006;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -56,7 +56,7 @@
 }
 
 .hamburger:hover {
-  background-color: #2642af;
+  background-color: #a68812;
 }
 
 @media screen and (max-width: 550px) {
@@ -70,9 +70,9 @@
     top: 60px;
     left: 0;
     width: 50%;
-    opacity: 0.6;
     background-color: white;
-    border-top: 1px solid black;
+    border: 2px dashed #efc006;
+
     display: none;
   }
 
@@ -84,7 +84,7 @@
   .navigation-menu li a {
     color: #efc006;
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
 
   .navigation-menu li:hover {

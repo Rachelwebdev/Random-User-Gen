@@ -1,9 +1,16 @@
-.user-main-container {
+.all-users {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px 100px;
+}
+
+.users-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
+
 .pagination-buttons {
   display: flex;
   justify-content: center;
@@ -82,4 +89,24 @@ small {
   pointer-events: none;
   box-shadow: none;
   color: #999;
+}
+
+@media screen and (max-width: 550px) {
+  .all-users {
+    grid-template-columns: auto;
+    gap: 25px 50px;
+  }
+  .title-heading {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .all-users {
+    grid-template-columns: auto auto auto;
+    gap: 75px 150px;
+  }
+  .title-heading {
+    font-size: 50px;
+  }
 }

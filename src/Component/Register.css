@@ -1,6 +1,7 @@
 .register-container {
   background-color: black;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .register-heading {
@@ -13,11 +14,12 @@
   margin: 0 auto;
   padding-top: 1rem;
   font-size: 35px;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .register-form-container {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,12 +35,13 @@
   cursor: pointer;
   background-color: #efc006;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   border: none;
   padding: 16px 20px;
   border-radius: 12px;
   margin-top: 2rem;
+  width: 60%;
 }
 
 .btn-form-submit:hover {
@@ -48,4 +51,10 @@
   font-size: 20px;
   border: 1px solid #efc006;
   font-weight: 800;
+}
+
+@media screen and (max-width: 550px) {
+  .register-heading {
+    font-size: 25px;
+  }
 }
