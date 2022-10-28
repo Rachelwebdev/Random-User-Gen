@@ -1,5 +1,5 @@
 #main-card {
-  width: 100%;
+  width: 400px;
   border-radius: 2rem;
   overflow: hidden;
   margin-bottom: 3rem;
@@ -120,11 +120,11 @@ div#main-card:hover {
   .icons-container {
     flex-direction: column;
   }
+  #main-card {
+    width: 200px;
+    margin: 3rem auto;
+  }
 }
 
 @media screen and (max-width: 300px) {
-  #main-card {
-    width: 50%;
-    margin: 0 auto;
-  }
 }
