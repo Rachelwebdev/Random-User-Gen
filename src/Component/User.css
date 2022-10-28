@@ -115,3 +115,16 @@ div#main-card:hover {
     transform: scale3d(1, 1, 1);
   }
 }
+
+@media screen and (max-width: 550px) {
+  .icons-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #main-card {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
