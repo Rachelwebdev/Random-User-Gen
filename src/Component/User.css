@@ -115,12 +115,3 @@ div#main-card:hover {
     transform: scale3d(1, 1, 1);
   }
 }
-
-@media screen and (max-width: 550px) {
-}
-
-@media screen and (min-width: 1201px) {
-  #main-card {
-    /* width: 150%; */
-  }
-}
