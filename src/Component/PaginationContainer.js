@@ -23,7 +23,7 @@ const PaginationContainer = () => {
   }, []);
   return (
     <div className="user-main-container">
-      <h1 className="title-heading">HELLO, I AM A NEW USER 🧑</h1>
+      <h1 className="title-heading">MEET THE USERLY TEAM 🧑</h1>
       <div>
         {isLoading ? (
           <div

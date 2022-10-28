@@ -4,12 +4,12 @@
 }
 
 .landing-image {
-  width: 60%;
+  width: 50%;
 }
 
 .form-container {
   margin: 2rem 0 0;
-  max-width: 400px;
+  width: 50%;
   background-color: white;
   padding: 1.5rem 3rem 2rem;
   display: flex;
@@ -82,4 +82,23 @@ input[type="password"]:focus {
   color: #efc006;
   font-weight: 600;
   width: 70%;
+}
+
+@media screen and (max-width: 550px) {
+  .landing-main-container {
+    flex-direction: column;
+  }
+  .landing-image {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .form-container {
+    /* width: 50%; */
+  }
 }

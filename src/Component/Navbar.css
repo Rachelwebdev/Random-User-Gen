@@ -69,8 +69,8 @@
     position: absolute;
     top: 60px;
     left: 0;
-    width: 100%;
-    height: calc(100vh - 60px);
+    width: 50%;
+    opacity: 0.6;
     background-color: white;
     border-top: 1px solid black;
     display: none;
@@ -82,7 +82,7 @@
   }
 
   .navigation-menu li a {
-    color: black;
+    color: #efc006;
     width: 100%;
     padding: 1.5rem 0;
   }

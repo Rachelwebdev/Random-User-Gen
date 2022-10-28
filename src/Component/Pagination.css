@@ -1,8 +1,9 @@
-/* .users-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-} */
-
+.user-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .pagination-buttons {
   display: flex;
   justify-content: center;
