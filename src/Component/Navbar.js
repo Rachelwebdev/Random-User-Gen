@@ -42,7 +42,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/About" className="anchor-tags" href="/about">
+            <Link to="/about" className="anchor-tags" href="/about">
               About
             </Link>
           </li>

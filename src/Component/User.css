@@ -1,5 +1,5 @@
 #main-card {
-  width: 400px;
+  width: 100%;
   border-radius: 2rem;
   overflow: hidden;
   box-shadow: -5px 2px 18px 4px #ccc;
@@ -121,10 +121,6 @@ div#main-card:hover {
     flex-direction: column;
   }
   #main-card {
-    width: 300px;
-    margin: 3rem auto;
+    width: 85%;
   }
-}
-
-@media screen and (max-width: 300px) {
 }

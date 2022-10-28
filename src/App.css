@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  /* background-color: black; */
   font-family: "Roboto", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }

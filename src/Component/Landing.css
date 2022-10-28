@@ -96,9 +96,3 @@ input[type="password"]:focus {
     width: 100%;
   }
 }
-
-@media (min-width: 1201px) {
-  .form-container {
-    /* width: 50%; */
-  }
-}
