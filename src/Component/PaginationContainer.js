@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 const PaginationContainer = () => {
   const [apiData, setApiData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  // const [apiError, setApiError] = useState("");
 
   const url = "https://randomuser.me/api/?results=100";
   useEffect(() => {

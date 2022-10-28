@@ -43,7 +43,6 @@ export default function Pagination(props) {
   return (
     <div className="pagination">
       <div className="users-left-right">
-        {/* <div className="left-side"></div> */}
         <div className="all-users">
           {getPaginatedData().map((data, index) => {
             return (
@@ -58,7 +57,6 @@ export default function Pagination(props) {
             );
           })}
         </div>
-        {/* <div className="right-side"></div> */}
       </div>
 
       <div className="pagination-buttons">
