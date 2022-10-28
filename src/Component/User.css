@@ -2,8 +2,8 @@
   width: 400px;
   border-radius: 2rem;
   overflow: hidden;
-  margin-bottom: 3rem;
   box-shadow: -5px 2px 18px 4px #ccc;
+  margin: 3rem auto;
 }
 
 .cover-photo {
