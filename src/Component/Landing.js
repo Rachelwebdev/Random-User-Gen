@@ -9,7 +9,12 @@ function Landing({ count, setCount }) {
 
   return (
     <>
-      <div className="bg-img">
+      <div className="landing-main-container">
+        <img
+          className="landing-image"
+          src="./images/landing-img.jpg"
+          alt="Group of people"
+        />
         <form action="" className="form-container">
           <h1 className="login-heading">Login to see Who We Are! 👨‍👩‍👦‍👦</h1>
           <label className="email-label" htmlFor="email">

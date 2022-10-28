@@ -1,19 +1,13 @@
-.bg-img {
-  background-image: url("https://bit.ly/3f4LAPM");
-  min-height: 140vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.landing-main-container {
+  display: flex;
+  margin: 3rem 0;
 }
-/* .login-heading {
-  margin-bottom: 1rem;
-} */
+
+.landing-image {
+  width: 60%;
+}
 
 .form-container {
-  position: absolute;
-  top: 35%;
-  left: 35%;
   margin: 2rem 0 0;
   max-width: 400px;
   background-color: white;
@@ -23,7 +17,7 @@
 }
 
 .form-container h1 {
-  color: #06dcdc;
+  color: #000000;
   font-size: 1.9rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -58,7 +52,7 @@ input[type="password"]:focus {
   text-align: center;
 }
 .btn-submit:hover {
-  color: #06dcdc;
+  color: #efc006;
   background-color: white;
   font-size: 1.5rem;
   cursor: pointer;
@@ -83,8 +77,9 @@ input[type="password"]:focus {
 }
 
 .btn-error:hover {
-  background-color: #06dcdc;
-  color: black;
+  background-color: white;
+  border: 2px dashed #efc006;
+  color: #efc006;
   font-weight: 600;
   width: 70%;
 }
