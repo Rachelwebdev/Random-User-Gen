@@ -1,7 +1,7 @@
 .pagination-buttons {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 0 3rem;
 }
 
 small {
