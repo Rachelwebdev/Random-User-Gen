@@ -121,6 +121,7 @@ div#main-card:hover {
     flex-direction: column;
   }
   #main-card {
-    width: 85%;
+    width: 50%;
+    margin: 3rem auto;
   }
 }
